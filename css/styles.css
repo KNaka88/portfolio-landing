@@ -19,7 +19,11 @@ footer, .page-wrap:after {
 }
 
 #sakura {
+  display: block;
   width: 100%;
+  margin: 2% auto;
+  box-shadow: 3px 5px 5px #ddeeee;
+  border-radius: 10px;
 }
 
 #myprofilepic {
