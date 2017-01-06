@@ -2,13 +2,15 @@ html, body {
   height: 100vh;
 }
 
+
+
+
+
+
 /* Header */
-
 header {
-
   text-align: center;
   letter-spacing: 2px;
-
 }
 
 nav a{
@@ -26,15 +28,42 @@ nav a:hover {
   transition: 0.10s;;
  }
 
+ /*Main*/
+ .title {
+   text-align: center;
+   font-family: 'Karla', sans-serif;
+ }
+ .jumbotron {
+   margin-bottom: 0%;
+ }
 
-.page-wrap {
-  min-height: calc(100vh - 100px);
+.panel-heading {
+  text-align: center;
 }
 
-.page-wrap:after {
-  content: "";
-  display: block;
+.col-pics {
+  width: 100%;
+  height: auto;
 }
+
+blockquote {
+  margin-top: 3%;
+  margin-left: 2%;
+  background: #f9f9f9;
+}
+
+
+
+
+/*Footer */
+ .page-wrap {
+   min-height: calc(100vh - 100px);
+ }
+
+ .page-wrap:after {
+   content: "";
+   display: block;
+ }
 
 
 footer, .page-wrap:after {
@@ -43,9 +72,10 @@ footer, .page-wrap:after {
   height: 90px;
 }
 
+/*Image*/
 #sakura {
   display: block;
-  width: 100%;
+  width: 75%;
   margin: 2% auto;
   box-shadow: 3px 5px 5px #ddeeee;
   border-radius: 10px;
@@ -53,4 +83,24 @@ footer, .page-wrap:after {
 
 #myprofilepic {
 
+}
+
+@media screen and (max-width: 350px){
+  .jumbotron h1{
+    font-size: 2.5rem;
+  }
+}
+
+
+@media screen and (max-width: 767px){
+  .col-pics {
+    display: block;
+    width: 50%;
+    margin: 2% auto;
+    border-radius: 10px;
+
+  }
+  blockquote {
+    display: none;
+  }
 }
