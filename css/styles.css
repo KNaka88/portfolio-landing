@@ -101,15 +101,47 @@ footer, .page-wrap:after {
   border-radius: 10px;
 }
 
+
+
+
+
+/*aboutme.html*/
+
+.aboutme-mainlist {
+  font-weight:bolder;
+  list-style:none;
+  line-height: 3rem;
+}
+
+#contactme {
+  float: left;
+  margin-right: 5rem;
+  margin-bottom: 5rem;
+}
+
+#background-list  {
+  float: left;
+}
+
+
+.logo img{
+  display: inline-flex;
+  height: 32px;
+  margin: 0 3px;
+  width: auto;
+
+}
+
+
 #myprofilepic {
-
+  width:  15%;
+  height: auto;
+  border-radius: 100%;
+  border: 5px groove rgb(99, 218, 192);
 }
 
-@media screen and (max-width: 350px){
-  .jumbotron h1{
-    font-size: 2.5rem;
-  }
-}
+
+
 
 
 @media screen and (max-width: 767px){
@@ -117,9 +149,31 @@ footer, .page-wrap:after {
     width: 50%;
     margin: 2% auto;
     border-radius: 10px;
-
   }
   blockquote {
     display: none;
   }
+
+  #myprofilepic {
+    width:  25%;
+    height: auto;
+    border-radius: 100%;
+    border: 5px groove rgb(99, 218, 192);
+  }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+#background-list {
+  float: left;
 }
