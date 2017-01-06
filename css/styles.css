@@ -13,5 +13,15 @@ html, body {
 
 
 footer, .page-wrap:after {
+  text-align: center;
+  font-style: italic;
   height: 90px;
+}
+
+#sakura {
+  width: 100%;
+}
+
+#myprofilepic {
+
 }
