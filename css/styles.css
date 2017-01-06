@@ -2,6 +2,31 @@ html, body {
   height: 100vh;
 }
 
+/* Header */
+
+header {
+
+  text-align: center;
+  letter-spacing: 2px;
+
+}
+
+nav a{
+  display: inline-block;
+  margin:2% auto;
+  padding:0 3%;
+}
+
+nav .active {
+  color: #ff6089;
+}
+
+nav a:hover {
+  color: #ff6089;
+  transition: 0.10s;;
+ }
+
+
 .page-wrap {
   min-height: calc(100vh - 100px);
 }
