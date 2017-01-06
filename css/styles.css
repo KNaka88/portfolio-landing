@@ -2,6 +2,9 @@ html, body {
   height: 100vh;
 }
 
+body {
+  padding-top: 66px;
+}
 
 
 
@@ -9,13 +12,18 @@ html, body {
 
 /* Header */
 header {
+  position: fixed;
   text-align: center;
   letter-spacing: 2px;
+  top: 0;
+  width: 100%;
+  background-color: white;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, .4);
 }
 
 nav a{
   display: inline-block;
-  margin:2% auto;
+  margin: 0.8% auto;
   padding:0 3%;
 }
 
@@ -34,6 +42,7 @@ nav a:hover {
    font-family: 'Karla', sans-serif;
  }
  .jumbotron {
+   margin-top: 5%;
    margin-bottom: 0%;
  }
 
@@ -42,8 +51,11 @@ nav a:hover {
 }
 
 .col-pics {
-  width: 100%;
+  display: block;
+  width: 90%;
   height: auto;
+  margin: 0 auto;
+  border-radius: 5px;
 }
 
 blockquote {
@@ -94,7 +106,6 @@ footer, .page-wrap:after {
 
 @media screen and (max-width: 767px){
   .col-pics {
-    display: block;
     width: 50%;
     margin: 2% auto;
     border-radius: 10px;
