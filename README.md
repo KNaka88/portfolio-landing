@@ -1,26 +1,27 @@
 #Koji Nakagawa
 
-#### _{Brief description of application}, {Date of current version}_
+#### 1st Week Independent Project for Epicodus, 01.06.2017
 
 #### By Koji Nakagawa
 
+[Portfolio-Landing](https://github.com/KNaka88/portfolio-landing) to check out my Portfolio Landing webpage.
 ## Description
 
 * This website is first independent project for Epicodus "Intro to Programming" class.
 * This website includes: index page, lit of projects, about myself, and photo works.
 
+
 ## Setup/Installation Requirements
 
-* Clone this repository
-* Open the index.html by your web browser
-
-_If you have internet access and using current web browser, you should be able to open the file_
+* Clone this repository.
+* Open the index.html by your web browser.
 
 
 ## Known Bugs
 
-#### If you find some code error or bugs, or find improvements, please feel contact to me.
-#### Any help is highly appriciated.
+##### If you find some code error or bugs, or find improvements, please feel contact to me.
+##### Any help is highly appreciated.
+
 
 ## Technologies Used
 
@@ -28,9 +29,25 @@ _If you have internet access and using current web browser, you should be able t
 * CSS
 * Bootstrap
 
+
 ### License
 
+_Copyright (c) 2017 **Koji Nakagawa**_
 
-*{Determine the license under which this application can be used.  See below for more details on licensing.}*
+_Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
 
-Copyright (c) 2017 ** Koji Nakagawa**
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE._
