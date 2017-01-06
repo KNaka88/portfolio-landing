@@ -1,0 +1,17 @@
+html, body {
+  height: 100vh;
+}
+
+.page-wrap {
+  min-height: calc(100vh - 100px);
+}
+
+.page-wrap:after {
+  content: "";
+  display: block;
+}
+
+
+footer, .page-wrap:after {
+  height: 90px;
+}
