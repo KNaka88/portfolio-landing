@@ -4,7 +4,7 @@
 
 #### By Koji Nakagawa
 
-[Portfolio-Landing](knaka88.github.io/portfolio-landing) to check out my Portfolio Landing webpage.
+[Portfolio-Landing](https://github.com/KNaka88.github.io/portfolio-landing/) to check out my Portfolio Landing webpage.
 ## Description
 
 * This website is first independent project for Epicodus "Intro to Programming" class.
